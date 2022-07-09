@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var searchBar: UITextField!
     
     let newWordDic: [String: String] = ["스불재": "스스로 불러온 재앙", "갓생": "God과 인생을 합친 말로, 열심히 사는 사람한테 쓰는 말", "삼귀다": "사귀기 전의 썸타는 단계", "점메추": "점심 메뉴 추천좀", "구취": "구독 취소", "캘박": "캘린더 박제", "식집사": "식물을 기르는 사람", "많관부": "많은 관심 부탁드립니다", "팬아저": "팬이 아니어도 저장", "갑통알": "갑자기 통장보니 알바해야겠다", "사바사": "사람 by 사람이라는 뜻으로, 경우에 따라 다르다는 것을 의미"]
-    var newWord: [String] = ["아아아아아아", "갓생", "삼귀다", "점메추", "구취", "캘박", "식집사", "많관부", "팬아저", "갑통알", "사바사"]
+    var newWord: [String] = ["스불재", "갓생", "삼귀다", "점메추", "구취", "캘박", "식집사", "많관부", "팬아저", "갑통알", "사바사"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
