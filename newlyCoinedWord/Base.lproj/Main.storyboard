@@ -57,28 +57,28 @@
                                     <action selector="tapFirstBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8lH-ih-nkB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzD-hJ-Blq">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzD-hJ-Blq">
                                 <rect key="frame" x="60" y="114" width="30" height="30"/>
                                 <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
-                                    <action selector="tapSecondBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L4v-W7-v1y"/>
+                                    <action selector="tapFirstBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FEH-nY-QQu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ivn-jJ-CBa">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ivn-jJ-CBa">
                                 <rect key="frame" x="95" y="114" width="30" height="30"/>
                                 <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
-                                    <action selector="tapThirdBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DhE-Ja-RWb"/>
+                                    <action selector="tapFirstBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VV4-J1-acj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbi-cj-HrN">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbi-cj-HrN">
                                 <rect key="frame" x="130" y="114" width="30" height="30"/>
                                 <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
-                                    <action selector="tapFourthBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oRm-tX-c49"/>
+                                    <action selector="tapFirstBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qxi-Vg-4tc"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y14-rd-qR5">

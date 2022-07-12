@@ -129,30 +129,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
     }
     
-    @IBAction func tapFirstBtn(_ sender: UIButton) {
+    @IBAction func tapHashtagBtn(_ sender: UIButton) {
     
-        searchBar.text = newWord[0]
-        resultLabel.text = newWordDic[newWord[0]]
+        searchBar.text = newWord[sender.tag]
+        resultLabel.text = newWordDic[newWord[sender.tag]]
         
     }
-    @IBAction func tapSecondBtn(_ sender: UIButton) {
-        
-        searchBar.text = newWord[1]
-        resultLabel.text = newWordDic[newWord[1]]
-        
-    }
-    @IBAction func tapThirdBtn(_ sender: UIButton) {
-        
-        searchBar.text = newWord[2]
-        resultLabel.text = newWordDic[newWord[2]]
-        
-    }
-    @IBAction func tapFourthBtn(_ sender: UIButton) {
-        
-        searchBar.text = newWord[3]
-        resultLabel.text = newWordDic[newWord[3]]
-        
-    }
+    
     
 }
 
