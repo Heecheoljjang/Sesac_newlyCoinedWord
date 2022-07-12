@@ -7,6 +7,11 @@
 
 import UIKit
 
+enum Word: String {
+    
+    case 스불재 = "스스로 불러온 재앙"
+}
+
 class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var firstBtn: UIButton!
@@ -94,7 +99,25 @@ class ViewController: UIViewController, UITextFieldDelegate {
         view.endEditing(true)
         
         if let text = searchBar.text {
-            resultLabel.text = newWordDic[text]
+            
+            switch text {
+                
+            case "스불재": resultLabel.text = "스스로 불러온 재앙"
+            case "갓생": resultLabel.text = "God과 인생을 합친 말로, 열심히 사는 사람한테 쓰는 말"
+            case "삼귀다": resultLabel.text = "사귀기 전의 썸타는 단계"
+            case "점메추": resultLabel.text = "점심 메뉴 추천좀"
+            case "구취": resultLabel.text = "구독 취소"
+            case "캘박": resultLabel.text = "캘린더 박제"
+            case "식집사": resultLabel.text = "식물을 기르는 사람"
+            case "많관부": resultLabel.text = "많은 관심 부탁드립니다"
+            case "팬아저": resultLabel.text = "팬이 아니어도 저장"
+            case "갑통알": resultLabel.text = "갑자기 통장보니 알바해야겠다"
+            case "사바사": resultLabel.text = "사람 by 사람이라는 뜻으로, 경우에 따라 다르다는 것을 의미"
+            
+            default:
+                "오류"
+            }
+            
         }
         
         newWord.shuffle()
